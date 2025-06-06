@@ -70,10 +70,10 @@ The Calendar Chatbot leverages a ReAct-style agent (AgentPro’s `ReactAgent`) t
    ```python
    from google.colab import files
    files.upload()  # Upload your credentials.json
+   
+---
 
-## Guideline 
-
-**Google OAuth Flow**  
+## 📋 Google OAuth Flow Guidelines
 1. When prompted, you will see a Google authorization URL printed in the Colab output.  
 2. Click the URL and grant access to your Google Calendar.  
 3. After granting permission, Google will redirect you to an (invalid) page and show an error.  
